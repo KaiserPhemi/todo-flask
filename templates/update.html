@@ -5,7 +5,30 @@
 {% endblock %}
 
 {% block body %}
-<div>
+<div class="content">
+  <h1>Update Task</h1>
+
+  <div>
+    <form action="/update/{{task.id}}" method='POST'>
+      <div class="input-group mb-3">
+        <input 
+          class="form-control" 
+          aria-describedby="button-addon2" 
+          type="text" 
+          value='{{task.content}}'
+          name="content" 
+          id="content">
+        <div class="input-group-append">
+          <button 
+            class="btn btn-outline-secondary" 
+            type="submit" 
+            id="button-addon2">
+            Update Task
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
   
 </div>
 {% endblock %}

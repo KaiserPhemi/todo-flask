@@ -1,20 +1,10 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-
-}
-
 .list-heading {
   text-align: center;
 }
 .content {
   width: 50%;
-  margin: 0 auto;
-}
-
-td {
-  text-align: center;
-  padding: 5px;
+  margin: 10rem auto;
+  padding: 20px;
 }
 
 .form {
